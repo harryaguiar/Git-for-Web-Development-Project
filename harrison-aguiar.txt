@@ -114,11 +114,32 @@ https://codepen.io/harryaguiar90/pen/QWybwjG
     By using the command 'rm'. we must be careful because we might delete the whole computer using that command line. 
 
     34. Why should I use version control?
-    It helps to work as a team in a project
+    It helps to work as a team in a project than can be kept in a cloud, so everyone has access and work on it at the same time. Also easier to undergo revision and redrafting.
 
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+    Every time you finish a step of a project.
+
+    36. What is the command we would use to push our repo up to github?
+    git push origin.
+
+    37. Walk me through Lambda's git flow.
+    - Go to https://github.com/LambdaSchool
+    - find the repository your are looking for.
+    - Fork to your own account.
+    - clone it to your local computer into the folder you will working on it. "git clone 'repo name'" on terminal
+    - go into the project folder "cd project-folder"
+    - create a branch "git checkout -b firstname-lastname"
+    - create a file "touch filename.txt"
+    - use command "code ." to open this project into vs code
+    - check status of project by command "git status", changes not saved will be in red 
+    - to save changes use command "git add filename" or "git add ." to add all changes made, or simple "git add" to save last changes made. 
+    - by using "git status" if changes were saved will be shown in green 
+    - to commit changes, use command "git commit -m 'detailed message of what have changed'"
+    - to push changes to gitHub use command "git push --set-upstream 'branch name'
+    -  go to GitHub website and open a pull request by "create Pull request"
+    - compare to forked version you had in your profile, not the school one
+    - Give a name to your pull request and hit create.
+
 
 Stretch Questions
 
